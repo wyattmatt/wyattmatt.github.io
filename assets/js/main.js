@@ -105,7 +105,7 @@ let opt = {
     image:        { type: 'jpeg', quality: 0.98 },
     html2canvas:  { scale: 4 },
     jsPDF:        { format: 'a4', orientation: 'portrait' },
-    pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
+    pagebreak:    { mode: 'avoid-all', before: '#page2el' }
 }
 
 //Function to call areaCV and Html2Pdf options
