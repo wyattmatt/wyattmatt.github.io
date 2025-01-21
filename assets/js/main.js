@@ -100,7 +100,7 @@ let resumeButton = document.getElementById('resume-button')
 
 // Html2pdf options
 let opt = {
-    margin:       [0.3, -1.85, 0, 0],
+    margin:       [0.3, -1.87, 0, 0],
     filename:     'ResumeCv.pdf',
     image:        { type: 'jpeg', quality: 1 },
     html2canvas:  { scale: 4 },
